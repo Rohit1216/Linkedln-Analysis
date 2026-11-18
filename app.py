@@ -36,7 +36,7 @@ with col2:
     exec_photo = st.file_uploader("Executive photo", type=["jpg", "jpeg", "png"])
 
 st.subheader("2. LinkedIn activity data")
-uploaded_excel = st.file_uploader("Upload your Excel file (.xlsx)", type=["xlsx"])
+uploaded_excel = st.file_uploader("Upload your Excel file (.xlsx or .xlsm)", type=["xlsx", "xlsm"])
 
 rows_per_slide = st.number_input(
     "Rows per slide (leave as-is unless you changed the template's table)",
